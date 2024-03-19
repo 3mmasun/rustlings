@@ -11,10 +11,17 @@
 
 fn array_and_vec() -> ([i32; 4], Vec<i32>) {
     let a = [10, 20, 30, 40]; // a plain array
-    let v = // TODO: declare your vector here with the macro for vectors
-
+    let mut v = vec![a];// TODO: declare your vector here with the macro for vectors
     (a, v)
 }
+
+// Another option: use the `Vec::new()` and fill it with push() method
+// ===== code =====
+// let mut v: Vec<i32> = Vec::new();// TODO: declare your vector here with the macro for vectors
+// for i in 0..a.len() {
+//     v.push(a[i]);
+// }
+// ===== code =====
 
 #[cfg(test)]
 mod tests {
