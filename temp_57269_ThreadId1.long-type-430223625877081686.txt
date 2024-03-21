@@ -1,0 +1,1 @@
+Filter<Map<std::vec::IntoIter<i32>, {closure@exercises/iterators/iterators3.rs:56:52: 56:55}>, fn(&Result<i32, DivisionError>) -> Option<&Result<i32, DivisionError>> {Option::<&Result<i32, DivisionError>>::Some}>
